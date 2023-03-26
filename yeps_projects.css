@@ -1,0 +1,99 @@
+ul{
+    list-style-type: none;
+    overflow:hidden;
+    margin:0px;
+    padding:0px;
+}
+li a{
+    color:black;
+    display:block;
+    font-size:19px;
+    float:left;
+    margin:15px;
+    padding:5px;
+    text-decoration: none;
+}
+li a:hover{
+    color:rgb(23, 131, 23);
+    border-style:solid;
+    border-width:2px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-color:rgb(23, 131, 23);
+}
+#topic{
+    font-size: 50px;
+    font-family: 'PT Serif', serif;
+    margin:30px;
+}
+mark{
+    background-color: white;
+    color:green;
+}
+.courseHeader{
+    font-size: 30px;
+    font-family: 'PT Serif', serif;
+    margin:30px;
+}
+.courseSubHeader{
+    border-style: solid;
+    background-color: green;
+    color:white;
+    border-color:white;
+    border-radius:5%;
+    padding:10px 15px;
+    margin-left:30px;
+}
+.viewMore{
+    border-style: solid;
+    color:black;
+    border-color:green;
+    border-radius:5%;
+    padding:10px 15px;
+}
+.viewMore:hover{
+    background-color: green;
+    color: white;
+}
+.aiProjects{
+    overflow:auto;
+    white-space: nowrap;
+    margin-left:25px;
+}
+.project{
+    display:inline-block;
+    width:250px;
+    height:320px;
+    margin:10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.content{
+    width:200px;
+    height:fit-content;
+    padding:15px;
+}
+.rate{
+    background-color: green;
+    height:34px;
+    position:relative;
+    bottom:16px;
+}
+.rate p{
+    position:relative;
+    left:15px;
+    color:white;
+    font-family: 'PT Serif', serif;
+}
+.header{
+    font-size:23px;
+    position:relative;
+    bottom:22px;
+}
+.subHeader{
+    position:relative;
+    line-height:1.7;
+    bottom:23px;
+}
